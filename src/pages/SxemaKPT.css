@@ -1,0 +1,139 @@
+/* Стили для страницы Схемы расположения на КПТ */
+.service-page {
+  background: url('/public/images/monument.jpg') center center/cover no-repeat fixed;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.service-page .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(0,0,0,0.6);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.back-link:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.service-page h1 {
+  color: white;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  margin-bottom: 30px;
+}
+
+.price-table {
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.price-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.price-table th,
+.price-table td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.price-table th {
+  background-color: #1e4a6e;
+  color: white;
+  font-weight: 600;
+}
+
+.price-table td {
+  color: #333;
+}
+
+.price-table .price {
+  font-weight: bold;
+  color: #1e4a6e;
+  white-space: nowrap;
+}
+
+.service-info {
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.service-info h2 {
+  color: #1e4a6e;
+  text-align: left;
+  margin-bottom: 15px;
+  text-shadow: none;
+}
+
+.service-info-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-info-text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.service-info-text ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.service-info-text li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.service-info-image {
+  flex: 1;
+  min-width: 200px;
+}
+
+.service-info-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .price-table th,
+  .price-table td {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+  
+  .price-table .price {
+    white-space: normal;
+  }
+  
+  .service-info-content {
+    flex-direction: column;
+  }
+  
+  .service-info-image {
+    margin-top: 20px;
+  }
+}
