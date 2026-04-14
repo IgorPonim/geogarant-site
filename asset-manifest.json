@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/geogarant-site/static/css/main.7727d175.css",
-    "main.js": "/geogarant-site/static/js/main.d98e0729.js",
+    "main.js": "/geogarant-site/static/js/main.cfc39afe.js",
     "static/media/unnamed.jpg": "/geogarant-site/static/media/unnamed.b3f8341428d833963dca.jpg",
     "static/media/monument.jpg": "/geogarant-site/static/media/monument.9379c6543b66f5974ff9.jpg",
     "index.html": "/geogarant-site/index.html",
     "main.7727d175.css.map": "/geogarant-site/static/css/main.7727d175.css.map",
-    "main.d98e0729.js.map": "/geogarant-site/static/js/main.d98e0729.js.map"
+    "main.cfc39afe.js.map": "/geogarant-site/static/js/main.cfc39afe.js.map"
   },
   "entrypoints": [
     "static/css/main.7727d175.css",
-    "static/js/main.d98e0729.js"
+    "static/js/main.cfc39afe.js"
   ]
 }
